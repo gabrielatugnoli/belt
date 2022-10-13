@@ -1,6 +1,3 @@
-from operator import imod
-from unittest import result
-from winreg import QueryInfoKey
 from flask_app.config.mysqlconnection import connectToMySQL
 
 from flask import flash
